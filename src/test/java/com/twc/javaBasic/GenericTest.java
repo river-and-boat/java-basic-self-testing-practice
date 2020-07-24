@@ -85,6 +85,7 @@ class GenericTest {
     }
 
     // TODO: You can add additional method within the range if you like
+    // 接收Pair<T>，以便进行值的设定
     private static <T> void swapT(Pair<T> pair) {
         T first = pair.getFirst();
         T second = pair.getSecond();
